@@ -1,0 +1,122 @@
+{
+  "dq_score_pct": 78.6,
+  "dq_status": "FAIL",
+  "passed": 11,
+  "warnings": 0,
+  "failed": 3,
+  "total_checks": 14,
+  "checks": [
+    {
+      "category": "Completeness",
+      "column": "event_id",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "user_id",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "timestamp",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "event_type",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "device",
+      "check": "Null % \u2264 5.0%",
+      "value": 38.33,
+      "threshold": 5.0,
+      "status": "FAIL"
+    },
+    {
+      "category": "Completeness",
+      "column": "location",
+      "check": "Null % \u2264 5.0%",
+      "value": 13.33,
+      "threshold": 5.0,
+      "status": "FAIL"
+    },
+    {
+      "category": "Completeness",
+      "column": "amount",
+      "check": "Null % \u2264 5.0%",
+      "value": 3.67,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "status",
+      "check": "Null % \u2264 5.0%",
+      "value": 20.33,
+      "threshold": 5.0,
+      "status": "FAIL"
+    },
+    {
+      "category": "Completeness",
+      "column": "session_id",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "device_is_null",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "location_is_null",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "amount_is_null",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "status_is_null",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Uniqueness",
+      "column": "_all_",
+      "check": "Duplicate % \u2264 1.0%",
+      "value": 0.0,
+      "threshold": 1.0,
+      "status": "PASS"
+    }
+  ]
+}
